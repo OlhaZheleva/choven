@@ -38,8 +38,7 @@
             <?php
         }
         ?>
-  
-              
+               
             </ul>
           </nav>
           <div class="footer__social social">

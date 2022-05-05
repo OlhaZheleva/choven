@@ -54,9 +54,22 @@
               <li class="nav__item">
                 <a class="nav__link" href="<?php echo get_permalink( get_page_by_path( 'reports-en' ) ); ?>">FUND REPORT</a>
               </li>
-              <li class="nav__item">
+              <?php 
+        if( is_page('english-home') ){
+        ?>
+	        <li class="nav__item">
                 <a class="nav__link" href="#team">ABOUT US</a>
               </li>
+        <?php
+        }
+        else { ?>
+            <li class="nav__item">
+                <a class="nav__link" href="<?php echo get_permalink( get_page_by_path( 'english-home' ) ); ?>">ABOUT US</a>
+              </li>
+            <?php
+        }
+        ?>
+              
               <li class="nav__item">
                 <a class="nav__link" href="#contacts">CONTACTS</a>
               </li>

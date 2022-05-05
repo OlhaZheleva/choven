@@ -51,7 +51,7 @@
             <li class="nav__item">
                 <a class="nav__link" href="<?php echo get_home_url(); ?>">Хто ми</a>
               </li>
-              ?>
+              
               <?php
         }
         ?>

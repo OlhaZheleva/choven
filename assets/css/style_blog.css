@@ -1,52 +1,62 @@
-.blog {
-    padding: 80px 0px 0px 0px;
+
+.articles-posts__title{
+        margin: 72px 0px 20px 63px;
+        font-size: 26.0625px;
+        line-height: 35px;
+}
+.blog__content {
+    padding: 30px 0;
 }
 
-.blog__title {}
-
-.title {}
-
-.blog__items {
-   
-    margin-top: 50px;
+.post-grid, 
+.category,
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 100%);
+    row-gap: 32px;
+    column-gap: 24px;
 }
 
-.blog__item {
-}
-
-.blog__name {
-    font-size: 30px;
-    line-height: 43px;
-    color: #4D77FF;
-    max-width: 330px;
-}
-
-.blog__line {}
-
-
-
-.blog__descrp {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 155%;
-}
-
-.blog__img {
+.post-grid__item {
+    padding: 20px 28px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    position: relative;
     justify-content: space-between;
-
-}
-.blog__img img {
-    max-width: 471px;
-    margin-top: 20px;
-}
-.blog__donation {
-    margin-top: 48px;
-    text-align: center;
 }
 
-.blog__btn {}
 
-.button {}
+.post__line {
+    width: 100%;
+    height: 1.5px;
+    background-color: #252525;
+}
+.blog-post {}
+
+figure {
+    max-height: 400px; 
+    width: auto;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.post-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 28px;
+    color:#4D77FF ;
+    font-family: 'e-Ukraine Head';
+    font-style: normal;
+}
+
+
+
+.post__descrp {
+    font-weight: 400;
+    font-size: 15.4688px;
+    line-height: 24px;
+    font-family: 'e-Ukraine Head';
+    font-style: normal;
+}
+
+.post__img {}

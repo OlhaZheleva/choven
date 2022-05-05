@@ -1,6 +1,6 @@
 <?php /* Template Name: payment-en */ ?> 
 
-<?php get_header('sub-en'); ?>
+<?php get_header('en'); ?>
 
 <div class="payment">
             <h1 class="payment__title title">Details</h1>

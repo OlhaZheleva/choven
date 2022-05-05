@@ -1,6 +1,6 @@
 <?php /* Template Name: patreons-en */ ?> 
 
-<?php get_header('sub-en'); ?>
+<?php get_header('en'); ?>
 
  <main class="content">
         <div class="main">

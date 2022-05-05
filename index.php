@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
       <main class="content">
+        
         <!-----------------------main ----------->
         <div class="main">
           <h1 class="main__title">

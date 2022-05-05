@@ -50,9 +50,24 @@
               <li class="nav__item">
                 <a class="nav__link" href="<?php echo get_permalink( get_page_by_path( 'reports-ua' ) ); ?>">ЗВІТ ФОНДУ</a>
               </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#team">ХТО МИ</a>
+              
+              <?php 
+        if( is_front_page() ){
+        ?>
+	        <li class="nav__item">
+                <a class="nav__link" href="#team">Хто ми</a>
               </li>
+        <?php
+        }
+        else { ?>
+            <li class="nav__item">
+                <a class="nav__link" href="<?php echo get_home_url(); ?>">Хто ми</a>
+              </li>
+              
+              <?php
+        }
+        ?>
+         
               <li class="nav__item">
                 <a class="nav__link" href="#contacts">КОНТАКТИ</a>
               </li>
