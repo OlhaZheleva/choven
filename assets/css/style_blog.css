@@ -1,0 +1,52 @@
+.blog {
+    padding: 80px 0px 0px 0px;
+}
+
+.blog__title {}
+
+.title {}
+
+.blog__items {
+   
+    margin-top: 50px;
+}
+
+.blog__item {
+}
+
+.blog__name {
+    font-size: 30px;
+    line-height: 43px;
+    color: #4D77FF;
+    max-width: 330px;
+}
+
+.blog__line {}
+
+
+
+.blog__descrp {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 155%;
+}
+
+.blog__img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.blog__img img {
+    max-width: 471px;
+    margin-top: 20px;
+}
+.blog__donation {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.blog__btn {}
+
+.button {}

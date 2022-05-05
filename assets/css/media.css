@@ -1,0 +1,73 @@
+@media (min-width: 890px) and (max-width: 1320px) {
+    .reports__item {
+        max-width: 217px;
+            margin-bottom: 20px;
+    }
+    .works__item {
+        max-width: 422px;
+
+    }
+    .main__title {
+        font-size: 50px;
+    }
+    .main {
+        padding-top: 80px;
+    }
+    .button {
+        
+        font-size: 15px;
+        line-height: 12px;
+
+    }
+    .header__logo {
+        margin-right: 10px;
+    }
+    .header {
+        padding: 7px 0px;
+    }
+    .header__patreons {
+        
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .nav__item:not(:last-child) {
+        margin-right: 22px;
+    }
+    .nav__link {
+        font-size: 13px;
+     
+    }
+    .header__btn {
+        margin-left: 20px;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .works {
+        padding-top: 47px;
+    }
+    .team {
+        padding-top: 103px;
+    }
+    .team__item {
+        margin-right: 60px;
+    }
+    .title {
+        font-size: 50px; 
+    }
+}
+
+
+
+/*------------планшет до 800px------*/
+@media (min-width: 624px) and (max-width: 890px) {
+
+}
+
+
+
+/*-----------мобильная версия до 430px -------------*/
+
+@media (max-width: 622px) {
+
+}
